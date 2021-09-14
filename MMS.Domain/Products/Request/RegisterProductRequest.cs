@@ -1,0 +1,16 @@
+﻿using MMS.Domain.Products;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace MMS.Domain.Distributors.Requests
+{
+    public class RegisterProductRequest
+    {
+        public string Code { get; set; }
+        public string Name { get; set; }
+        public decimal Price { get; set; }
+    }
+}
